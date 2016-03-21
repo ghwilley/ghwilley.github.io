@@ -1,0 +1,59 @@
+html {
+	font-family: Helvetica;
+	background-image: url("http://cdn.shopify.com/s/files/1/0800/8881/products/IMG_9409_1024x1024.JPG?v=1445797297");
+	background-attachment: fixed;
+}
+
+body {
+	background: #d9d9d9;
+	margin: auto;
+	width: 60%;
+}
+h1 {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-style: italic;
+	background-color: gray;
+}
+
+header li {
+	margin-top: 1%;
+	font-weight: bold;
+	top: 30px;
+	display: inline-block;
+	background-color: #d9d9d9;
+	border-right: 2px solid #FFF;
+}
+
+header li:last-of-type {
+	border-right: none;
+}
+
+header {
+	margin: auto;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	background-repeat: no-repeat;
+	background-image: url("http://media.bizj.us/view/img/5495391/photo-p1-beer-flight*1200xx3562-2004-0-507.jpg");
+	background-position: center;
+	height: 150px;
+}
+
+.table {
+	width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		width: 100%;
+		margin: 0;
+
+	}
+}
