@@ -4,11 +4,20 @@ html {
 	background-attachment: fixed;
 }
 
+body a:link {
+	color: #000;
+}
+
+body a:hover {
+	color: red;
+}
+
 body {
 	background: #d9d9d9;
 	margin: auto;
 	width: 60%;
 }
+
 h1 {
 	font-size: 60px;
 	color: white;
@@ -49,6 +58,8 @@ header {
 .table {
 	width: 500px;
 }
+
+
 
 @media screen and (max-width: 480px) {
 	body {
