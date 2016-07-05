@@ -4,10 +4,40 @@ body {
 	margin-right: 20%;
 }
 
+body a {
+	color: black;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav {
+	width: 100%;
+}
+
 h5 {
 	font-size: 16px;
 }
 
-.contact_info {
 
+.summary {
+	display: none;
+}
+
+.skills {
+	display: none;
+}
+
+.employment {
+	display: none;
+}
+
+.education {
+	display: none;
+}
+
+.achievments {
+	display: none;
 }
