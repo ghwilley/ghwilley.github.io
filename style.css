@@ -21,10 +21,11 @@ h5 {
 	font-size: 16px;
 }
 
-
-.summary {
-	display: none;
+.sum_link {
+	color: red;
 }
+
+
 
 .skills {
 	display: none;

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	$('.sum_link').click(function(e) {
 		e.preventDefault();
 		$('.nav').css('color', 'black');
