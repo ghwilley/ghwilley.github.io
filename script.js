@@ -23,4 +23,14 @@ $(document).ready(function(){
         $('.pricing > div > div:nth-of-type(3)').insertAfter($('.pricing > div > div:nth-of-type(1)'));
     }
 
+    // var feed = new Instafeed({
+    //     get: 'tagged',
+    //     tagName: 'awesome',
+    //     clientId: 'YOUR_CLIENT_ID'
+    // });
+    // feed.run();
+
+
 });
+
+    
