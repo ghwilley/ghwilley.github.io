@@ -102,8 +102,8 @@ section{
 }
 
 .logo{
-    width: 300px;
-    height: 150px;
+    height: 200px;
+    width: 400px;
     float: right;
     z-index: 300;
     position: relative;
@@ -279,14 +279,6 @@ header .toggle-menu{
     overflow: hidden;
     text-align: center;
 }
-.cta:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: -40px; right: -40px; bottom: -40px; left: -40px;
-    background: rgba(255,255,255,0.1);
-    transform: rotate(30deg);
-}
 .cta .container{
     position: relative;
     z-index: 10;
@@ -300,14 +292,6 @@ header .toggle-menu{
     position: relative;
     overflow: hidden;
     text-align: center;
-}
-.contact:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: -40px; right: -40px; bottom: -40px; left: -40px;
-    background: rgba(255,255,255,0.1);
-    transform: rotate(30deg);
 }
 .contact .input{
     width: 47%;
@@ -489,6 +473,8 @@ footer .social a:hover{
 @media (max-width: 600px){
     .logo{
         margin-top: 12%;
+        height: 150px;
+        width: 300px;
     }
     section{
         padding: 40px 10px;
