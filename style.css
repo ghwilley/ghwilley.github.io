@@ -1,22 +1,3 @@
-/* Animations */
-
-@keyframes pulse {
-  0%   { transform: scale(1); }
-  50% { transform: scale(0.8); }
-  100% { transform: scale(1); }
-}
-
-@keyframes spin {
-  0%   { transform: rotate(30deg); }
-  100% { transform: rotate(210deg); }
-}
-@keyframes spin2 {
-  0%   { transform: rotate(150deg); }
-  100% { transform: rotate(330deg); }
-}
-
-/* End Animations */
-
 /* Resets, Clears & Defaults */
 
 *, *:after, *:before {
@@ -25,11 +6,11 @@
 
 body, input, textarea{
     padding: 0; margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'lulo', sans-serif;
+    font-size: 15px;
     line-height: 30px;
-    color: #555;
-    font-weight: 300;
+    color: #000;
+    font-weight: 600;
 }
 input:focus, textarea:focus{
     outline: 0;
@@ -105,9 +86,9 @@ section{
     text-decoration: none;
     background: rgba(255,255,255,0.1);
 }
-.btn.yellow{
-    color: #fbc93d;
-    border: 1px solid #fbc93d;
+.btn.red{
+    color: #992b2f;
+    border: 1px solid #992b2f;
 }
 .btn.smaller{
     padding: 10px 25px;
@@ -116,20 +97,30 @@ section{
     margin-left: 10px;
 }
 
+.logo{
+    width: 300px;
+    height: 150px;
+    float: right;
+    z-index: 300;
+    position: relative;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
 header{
-    background: #222;
+    background: #FFF;
     padding: 0 20px;
     position: fixed;
     top: 0; left: 0;
-    width: 100%;
     z-index: 200;
 }
-header .logo{
+/*header .logo{
     float: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'lulo', sans-serif;
+    text-transform: uppercase;
     padding: 13px 0;
-    color: #fbc93d;
-    font-weight: 400;
+    color: #992b2f;
+    font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     margin: 0;
@@ -139,22 +130,22 @@ header .logo .fa{
     position: relative;
     top: -1px;
     margin-right: 7px;
-}
+}*/
 header nav{
-    float: right;
+    float: left;
 }
 header nav ul{
     padding: 0;
     margin: 0;
 }
 header nav ul li{
-    display: inline-block;
+    display: block;
     float: left;
 }
 header nav ul li a{
-    display: inline-block;
+    display: block;
     padding: 15px 20px;
-    color: #fff;
+    color: #992b2f;
     transition: 200ms;
 }
 header nav ul li a:hover, header nav ul li a.active{
@@ -165,8 +156,8 @@ header .toggle-menu{
     display: none;
 }
 
-.splash{
-    background: #fbc93d;
+/*.splash{
+    background: #992b2f;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -197,7 +188,7 @@ header .toggle-menu{
 }
 .splash h2{
     margin-bottom: 40px;
-}
+}*/
 
 .overview{
     text-align: center;
@@ -213,7 +204,7 @@ header .toggle-menu{
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background: #f6f6f6;
+    background: #992b2f;
     margin-bottom: 20px;
     padding-top: 25px;
 }
@@ -271,7 +262,7 @@ header .toggle-menu{
 .feature ul li .fa{
     float: left;
     font-size: 30px;
-    background: #fbc93d;
+    background: #992b2f;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -287,7 +278,7 @@ header .toggle-menu{
 }
 
 .cta{
-    background: #fbc93d;
+    background: #992b2f;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -309,7 +300,7 @@ header .toggle-menu{
 }
 
 .contact{
-    background: #fbc93d;
+    background: #992b2f;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -407,7 +398,7 @@ header .toggle-menu{
     z-index: 50;
 }
 .pricing > div > div:nth-of-type(2) h3{
-    background: #fbc93d;
+    background: #992b2f;
     color: #555;
     display: block;
 }
