@@ -315,13 +315,7 @@ footer .social a:hover{
         padding: 0 20px;
     }
     .menu img{
-        right: 65%;
-    }
-    .menu:nth-of-type(even) img{
-        left: 65%;
-    }
-    .menu > div > div{
-        width: 60%;
+        width: 100%;
     }
     header nav ul li a{
         padding: 15px;
