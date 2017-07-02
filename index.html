@@ -15,6 +15,7 @@
         <link href="style.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
+        <!-- <script type="text/javascript" src="instafeed.min.js"></script> -->
 
     </head>
     <body>
@@ -26,7 +27,7 @@
                         <li><a href="#" data-scrollto="splash"><item>Home</item></a></li>
                         <li><a href="#" data-scrollto="overview"><item>About</item></a></li>
                         <li><a href="#" data-scrollto="menu"><item>Menu</item></a></li>
-                        <li><a href="#" data-scrollto="photos"><item>Photos</item></a></li>
+                        <!-- <li><a href="#" data-scrollto="photos"><item>Photos</item></a></li> -->
                         <li><a href="#" data-scrollto="contact"><item>Contact</item></a></li>
                     </ul>
                 </nav>
@@ -56,13 +57,22 @@
             </div>
         </section>
 
-        <section class="photos">
+    <!--     <section class="photos">
             <div class="container">
+
+            <script type="text/javascript">
+                var feed = new Instafeed({
+                    get: 'user',
+                    userId: '5534671534',
+                    clientId: '97158102e0bc4120939105cfe915e6b1'
+                });
+                feed.run();
+            </script>
             <div id="instafeed"></div> 
                
                 
             </div>
-        </section>
+        </section> -->
 
         
         <div class="footer contact">
@@ -94,7 +104,6 @@
 </footer>
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="script.js"></script>
-        <script type="text/javascript" src="path/to/instafeed.min.js"></script>
 
     </body>
 </html>
